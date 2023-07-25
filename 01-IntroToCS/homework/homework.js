@@ -1,8 +1,12 @@
 'use strict';
 
-function BinarioADecimal(num) {}
+function BinarioADecimal(num) {
+   return parseInt(num,2);
+}
 
-function DecimalABinario(num) {}
+function DecimalABinario(num) {
+   return num.toString(2);
+}
 
 module.exports = {
    BinarioADecimal,
